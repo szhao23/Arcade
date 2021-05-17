@@ -1,0 +1,19 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: fantasy;
+  letter-spacing: 5px;
+}
+
+.AboutArcade {
+  display: flex;
+  justify-content: center;
+  font-family: fantasy;
+  color: rgb(49, 94, 94);
+}
+
+#arcadeimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

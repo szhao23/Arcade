@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arcade: Snake</title>
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script>
+
+        <link rel="stylesheet" href="./snake.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      </head>
+      
+<body>
+      <!-- Navbar (sit on top) -->
+      <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+          <a href="./index.html" class="w3-bar-item w3-button">Arcade</a>
+          <!-- Right-sided navbar links. Hide them on small screens -->
+
+          <div class="w3-right w3-hide-small">
+            <a href="./tictactoe.html" class="w3-bar-item w3-button">Tic-Tac-Toe</a>
+            <a href="./snake.html" class="w3-bar-item w3-button">Snake</a>
+            <a href="./connect4.html" class="w3-bar-item w3-button">Connect 4</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="w3-row w3-padding-64" id="about"></div>
+      <p class="Instructions"> <b>Instructions:</b> &nbsp Use the WASD keys to move UP, LEFT, DOWN, RIGHT. W = Up, A = Left, S = Down, D = Right</p>
+      <p class="Reset"> To &nbsp <b>Reset</b> &nbsp the game after losing, hit &nbsp <b>CTRL+R</b> &nbsp OR Click the &nbsp <b>Reset Button</b></p>
+      <div class="ResetButton">
+      <input type="reset" value="Reset" onClick="window.location.reload()">
+      <br> </br>
+      </div>
+
+
+      <div id="container">
+        <canvas id="canvas" width="600" height="400"></canvas>
+        <br>
+        <span>Score: <b id="score">0</b></span>
+
+
+      </div>
+
+
+
+
+</body>
+<script type="text/javascript" src="./snake.js"></script>
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <a href="https://github.com/szhao23">GitHub</a>
+  <a href="https://linkedin.com/">LinkedIn</a>
+</footer>
+
+</html>

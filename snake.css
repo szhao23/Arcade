@@ -1,0 +1,26 @@
+#container {
+    text-align: center;
+}
+
+#canvas {
+    background-color: black;
+}
+
+.Instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ResetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
